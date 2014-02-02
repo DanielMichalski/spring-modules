@@ -10,8 +10,11 @@
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>L1</module>
-    <module>L2</module>
+    <module>R2-1</module>
+    <module>R2-2</module>
+    <module>R2-3</module>
+    <module>R2-4</module>
+    <module>R2-5</module>
   </modules>
 
   <properties>
