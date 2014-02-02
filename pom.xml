@@ -10,11 +10,11 @@
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>R2-1</module>
-    <module>R2-2</module>
-    <module>R2-3</module>
-    <module>R2-4</module>
-    <module>R2-5</module>
+    <module>R2-1_Kontener_Spring</module>
+    <module>R2-2_Kontener_Spring</module>
+    <module>R2-3_Kontener_Spring</module>
+    <module>R2-4_Kontener_Spring</module>
+    <module>R2-5_Kontener_Spring</module>
   </modules>
 
   <properties>
