@@ -1,6 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import service.ITaskService;
+import com.ninjaapps.todo2.service.ITaskService;
 
 /**
  * Author: Daniel

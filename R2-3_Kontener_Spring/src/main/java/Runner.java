@@ -1,7 +1,7 @@
 import config.ApplicationConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import service.ITaskService;
+import com.ninjaapps.todo2.service.ITaskService;
 
 /**
  * Author: Daniel
