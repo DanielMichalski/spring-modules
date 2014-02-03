@@ -2,8 +2,8 @@ package config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import service.ITaskService;
-import service.TaskService;
+import com.ninjaapps.todo2.service.ITaskService;
+import com.ninjaapps.todo2.service.TaskService;
 
 /**
  * Author: Daniel

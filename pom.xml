@@ -15,6 +15,11 @@
     <module>R2-3_Kontener_Spring</module>
     <module>R2-4_Kontener_Spring</module>
     <module>R2-5_Kontener_Spring</module>
+    <module>R2-6_Zadania</module>
+    <module>R3-1_Wstrzykiwanie_zaleznosci</module>
+    <module>R3-2_Wstrzykiwanie_zaleznosci</module>
+    <module>R3-3_Wstrzykiwanie_zaleznosci</module>
+    <module>R3-4_Zadania</module>
   </modules>
 
   <properties>
