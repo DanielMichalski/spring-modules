@@ -20,6 +20,7 @@
     <module>R3-2_Wstrzykiwanie_zaleznosci</module>
     <module>R3-3_Wstrzykiwanie_zaleznosci</module>
     <module>R3-4_Zadania</module>
+    <module>R4-1_Spring_jdbc</module>
   </modules>
 
   <properties>
@@ -47,6 +48,12 @@
     </dependency>
 
     <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>1.6.1</version>
@@ -62,6 +69,12 @@
       <groupId>org.mockito</groupId>
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.27</version>
     </dependency>
 
   </dependencies>
