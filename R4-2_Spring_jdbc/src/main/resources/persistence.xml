@@ -1,0 +1,8 @@
+<persistence>
+  <persistence-unit name="taskmanager">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>model.Task</class>
+    <properties>
+    </properties>
+  </persistence-unit>
+</persistence>

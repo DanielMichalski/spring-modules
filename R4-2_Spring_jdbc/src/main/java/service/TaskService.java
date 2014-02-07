@@ -1,9 +1,10 @@
 package service;
 
-import dao.TaskDao;
+import dao.ITaskDao;
+import dao.RepositoryQualifier;
+import dao.RepositoryType;
 import model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -15,7 +16,8 @@ import java.util.List;
 @Service
 public class TaskService {
     @Autowired
-    private TaskDao taskDao;
+    @RepositoryQualifier(type = RepositoryType.JPA)
+    private ITaskDao taskDao;
 
     public void addTask(String subject,
                         Date startDate,

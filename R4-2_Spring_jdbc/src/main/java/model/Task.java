@@ -1,5 +1,6 @@
 package model;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,17 +8,23 @@ import java.util.Map;
 /**
  * Author: Daniel
  */
+@Entity
 public class Task {
     public static TaskBuilder Builder() {
         return new TaskBuilder();
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @Column (name = "subject")
     private String subject;
 
+    @Column (name = "start_time")
     private Date startDate;
 
+    @Column (name = "close_time")
     private Date closeDate;
 
     public PropertiesMapBuilder toMapWith() {
