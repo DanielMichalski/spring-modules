@@ -21,6 +21,7 @@
     <module>R3-3_Wstrzykiwanie_zaleznosci</module>
     <module>R3-4_Zadania</module>
     <module>R4-1_Spring_jdbc</module>
+    <module>R4-2_Spring_jdbc</module>
   </modules>
 
   <properties>

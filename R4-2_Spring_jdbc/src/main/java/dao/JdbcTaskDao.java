@@ -18,17 +18,19 @@ import java.util.Map;
  * Author: Daniel
  */
 @Repository
-public class TaskDao {
+@RepositoryQualifier(type = RepositoryType.JDBC)
+public class JdbcTaskDao implements ITaskDao {
     private SimpleJdbcInsert taskInsert;
 
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
-    public TaskDao(DataSource dataSource) {
+    public JdbcTaskDao(DataSource dataSource) {
         taskInsert = new SimpleJdbcInsert(dataSource).withTableName("task");
         jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
+    @Override
     public void saveTask(Task task) {
         try {
             Map<String, Object> params = task.toMapWith().
@@ -43,7 +45,8 @@ public class TaskDao {
         }
     }
 
-    public List<Task> findAllTasks() {
+    @Override
+    public List findAllTasks() {
         return jdbcTemplate.query("SELECT * FROM TASK;", new TaskMapper());
     }
 
