@@ -22,6 +22,9 @@
     <module>R3-4_Zadania</module>
     <module>R4-1_Spring_jdbc</module>
     <module>R4-2_Spring_jdbc</module>
+    <module>R4-3_Zadania</module>
+    <module>R5-1_Walidacja_danych</module>
+      <module>R6-1_Aspekty</module>
   </modules>
 
   <properties>
@@ -29,12 +32,6 @@
   </properties>
 
   <dependencies>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-aop</artifactId>
-      <version>${spring.version}</version>
-    </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
@@ -76,6 +73,42 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.27</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>1.1.0.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>5.0.1.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.el</groupId>
+      <artifactId>el-api</artifactId>
+      <version>2.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>el-impl</artifactId>
+      <version>2.2</version>
     </dependency>
 
   </dependencies>

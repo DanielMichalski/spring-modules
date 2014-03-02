@@ -1,7 +1,7 @@
-import model.Task;
+import com.ninjaapp.students.model.Task;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import service.TaskService;
+import com.ninja.app.service.TaskService;
 
 import java.util.Date;
 import java.util.List;
