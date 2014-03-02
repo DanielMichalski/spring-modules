@@ -1,7 +1,7 @@
 <persistence>
-  <persistence-unit name="taskmanager">
+  <persistence-unit name="students">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
-    <class>com.ninjaapp.students.com.ninja.com.ninja.app.model.Task</class>
+    <class>com.ninjaapp.students.com.ninja.com.ninja.app.model.Student</class>
     <properties>
     </properties>
   </persistence-unit>

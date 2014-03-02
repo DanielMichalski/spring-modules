@@ -6,6 +6,6 @@
 
   <description> Tutaj opis </description>
 
-  <context:component-scan base-package="com.ninjaapps.todo2.com.ninjaapps.todo.service" />
+  <context:component-scan base-package="com.ninja.app.service" />
 
 </beans>

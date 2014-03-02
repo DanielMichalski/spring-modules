@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
         default-init-method="defaultInitMethod" default-destroy-method="defaultDestroyMethod">
 
-  <bean id="taskService" class="com.ninjaapps.todo2.com.ninjaapps.todo.servicejaapps.todo.service.TaskService"
+  <bean id="taskService" class="com.ninjaapps.todo2.service.TaskService"
           init-method="initMethod" destroy-method="destroyMethod"/>
 
 </beans>
