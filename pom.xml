@@ -27,6 +27,7 @@
         <module>R6-1_Aspekty</module>
         <module>R6-2_Aspekty</module>
         <module>R7-1-Warstwa-Web</module>
+        <module>R7-2-Warstwa-Web-2</module>
     </modules>
 
     <properties>
@@ -169,7 +170,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-            <version>1.0</version>
+            <version>1.1.2</version>
         </dependency>
 
         <dependency>
@@ -203,6 +204,7 @@
             <artifactId>joda-time</artifactId>
             <version>1.6.2</version>
         </dependency>
+
     </dependencies>
 
 </project>
