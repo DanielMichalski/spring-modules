@@ -10,8 +10,7 @@ public class Runner {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("context.xml");
 
-        ITaskService bean = (ITaskService)
-                context.getBean("serwis", ITaskService.class);
+        ITaskService bean = context.getBean("serwis", ITaskService.class);
 
         System.out.println(bean.getServiceId());
     }
