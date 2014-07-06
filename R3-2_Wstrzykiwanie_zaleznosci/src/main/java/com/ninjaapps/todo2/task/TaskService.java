@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 public class TaskService implements ITaskService {
     @Autowired(required = true)
-    @Qualifier("eisenhowerToDoListStrategy")
+    @Qualifier(value = "eisenhowerToDoListStrategy")
     private IToDoListStrategy toDoListChooser;
 
     @Override

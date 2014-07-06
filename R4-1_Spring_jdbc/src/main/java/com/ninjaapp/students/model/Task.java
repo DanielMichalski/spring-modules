@@ -38,7 +38,7 @@ public class Task {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("com.ninjaapp.students.com.ninja.com.ninja.app.model.Task{");
+        final StringBuilder sb = new StringBuilder("Task{");
         sb.append("id=").append(id);
         sb.append(", subject='").append(subject).append('\'');
         sb.append(", startDate=").append(startDate);
