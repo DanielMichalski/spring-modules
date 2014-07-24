@@ -28,7 +28,6 @@
         <module>R6-2_Aspekty</module>
         <module>R7-1-Warstwa-Web</module>
         <module>R7-2-Warstwa-Web-2</module>
-        <module>R8-1_Testy</module>
     </modules>
 
     <properties>

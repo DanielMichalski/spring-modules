@@ -9,18 +9,6 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>L2</artifactId>
-  <dependencies>
-    <dependency>
-      <groupId>org.sonatype.sisu</groupId>
-      <artifactId>sisu-inject-bean</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.sonatype.sisu</groupId>
-      <artifactId>sisu-inject-bean</artifactId>
-      <version>1.4.2</version>
-    </dependency>
-  </dependencies>
+  <artifactId>R2-2_Kontener_Spring</artifactId>
 
 </project>
