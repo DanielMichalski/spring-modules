@@ -10,24 +10,25 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>R2-1_Kontener_Spring</module>
-        <module>R2-2_Kontener_Spring</module>
-        <module>R2-3_Kontener_Spring</module>
-        <module>R2-4_Kontener_Spring</module>
-        <module>R2-5_Kontener_Spring</module>
-        <module>R2-6_Zadania</module>
-        <module>R3-1_Wstrzykiwanie_zaleznosci</module>
-        <module>R3-2_Wstrzykiwanie_zaleznosci</module>
-        <module>R3-3_Wstrzykiwanie_zaleznosci</module>
-        <module>R3-4_Zadania</module>
-        <module>R4-1_Spring_jdbc</module>
-        <module>R4-2_Spring_jdbc</module>
-        <module>R4-3_Zadania</module>
-        <module>R5-1_Walidacja_danych</module>
-        <module>R6-1_Aspekty</module>
-        <module>R6-2_Aspekty</module>
-        <module>R7-1-Warstwa-Web</module>
-        <module>R7-2-Warstwa-Web-2</module>
+        <module>C01_Spring_Container_1</module>
+        <module>C02_Spring_Container_2</module>
+        <module>C03_Spring_Container_3</module>
+        <module>C04_Spring_Container_4</module>
+        <module>C05_Spring_Container_5</module>
+        <module>C06_Exercises</module>
+        <module>C07_Dependency_Injection_1</module>
+        <module>C08_Dependency_Injection_2</module>
+        <module>C09_Dependency_Injection_3</module>
+        <module>C10_Exercises</module>
+        <module>C11_Spring_JDBC_1</module>
+        <module>C12_Spring_JDBC_2</module>
+        <module>C13_Exercises</module>
+        <module>C14_Bean_validation</module>
+        <module>C15_Aspects_1</module>
+        <module>C16_Aspects_2</module>
+        <module>C17_Web_MVC_1</module>
+        <module>C18_Web_MVC_2</module>
+        <module>C19_Tests</module>
     </modules>
 
     <properties>
